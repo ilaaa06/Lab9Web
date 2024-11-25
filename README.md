@@ -78,11 +78,13 @@ File ini adalah halaman utama situs. File ini memanfaatkan `require()` untuk men
 ![image](https://github.com/user-attachments/assets/2e077eed-8f79-4ec1-9d8e-47c37cfe2861)   
 File ini adalah halaman tentang `(About)`. Sama seperti `home.php`, file ini juga menggunakan `require()` untuk menyisipkan header dan footer, sementara konten utama yang ditampilkan adalah deskripsi tentang website atau organisasi.   
 
+
+     
 ## TUGAS DAN JAWABAN
 Implementasikan konsep modularisasi pada kode program praktikum 8 tentang
 database, sehingga setiap halamannya memiliki template tampilan yang sama.  
 
-Berikut adalah implementasi tugas lab 8 dengan modularisasi, terdiri dari beberapa bagian seperti header, footer, dan halaman lainnya seperti `index.php`, `tambah.php`, dan `ubah.php`. 
+Berikut adalah implementasi tugas lab 8 dengan modularisasi, terdiri dari beberapa bagian seperti header, footer, dan halaman lainnya seperti `tugas_header.php', `tugas_footer.php`, `index.php`, `tambah.php`, `ubah.php`, dan `hapus.php`.   
 
 ### buat file header dengan nama tugas_header.php
 ```sh
